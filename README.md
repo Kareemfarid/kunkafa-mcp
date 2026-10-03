@@ -38,6 +38,8 @@ MCP is included in every plan, including Free.
 | `follow_market` | Follow a market for this account (needs the `following:write` permission). | Yes |
 | `unfollow_market` | Stop following a market (needs `following:write`). | Yes |
 
+Every tool declares a typed input schema (each field described) and an output schema matching the published API contract, so clients can read replies as structured data.
+
 ## Try asking
 
 - "Use Kunkafa: how far could gold move this week, up or down, and how confident is Kunkafa?"
